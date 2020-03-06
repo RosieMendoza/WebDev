@@ -21,13 +21,18 @@ table {
 }
 
 tr {
-	border: 1px solid #ffffff;
+	border: 1px solid ##B6D6F6;
 	text-align: center;
 	background-color:#9FB6CD; 
 }
 
 th {
 	text-align: center;
-	color: #ffffff;
+	color: #B6D6F6;
 	background-color: #003366;
+}
+
+teleporter {
+    resize: both
+    
 }

@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Stickers Bad.</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        /* Style the header */
+        header {
+            background-color: #666;
+            padding: 30px;
+            text-align: center;
+            font-size: 35px;
+            color: white;
+        }
+
+        /* Create two columns/boxes that floats next to each other */
+        nav {
+            float: left;
+            width: 30%;
+            height: 300px;
+            /* only for demonstration, should be removed */
+            background: #ccc;
+            padding: 20px;
+        }
+
+        /* Style the list inside the menu */
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        article {
+            float: left;
+            padding: 20px;
+            width: 70%;
+            background-color: #f1f1f1;
+            height: 1200px;
+            /* only for demonstration, should be removed */
+        }
+
+        /* Clear floats after the columns */
+        section:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        /* Style the footer */
+        footer {
+            background-color: #777;
+            padding: 10px;
+            text-align: center;
+            color: white;
+        }
+
+        /* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+        @media (max-width: 600px) {
+
+            nav,
+            article {
+                width: 100%;
+                height: auto;
+            }
+        }
+
+    </style>
+</head>
+
+<body>
+
+
+    <header>
+        <h2>PRODUCE STICKERS BAD.</h2>
+    </header>
+    <section>
+        <nav>
+            <ul>
+                <li><a href="information.html">Information</a></li>
+                <li><a href="earth.html">Why they fuck up earth</a></li>
+                <li><a href="#">how to throw away right way</a></li>
+                <li><a href="#">quizzy</a></li>
+                <li><a href="#">idk yet</a></li>
+            </ul>
+        </nav>
+
+        <article>
+            <h1>What are Produce Stickers used for?</h1>
+            <img src="https://airandspace.si.edu/sites/default/files/styles/hero_sm/public/images/exhibitions/hero-images/WEB12114-2011h.jpg?itok=7J45may9&timestamp=1467049481">
+            <p>Th for customers... (https://www.purelabels.com/blog/ecofriendly-produce-stickers/) </p>
+            <p>If there are five numbers in the PLU code, and the number starts with “8”, this tells you that the item  cannot be found in nature. A genetically engineered (GE or GMO) banana would be: 84011 (https://tiphero.com/produce-stickers)</p>
+        </article>
+    </section>
+
+    <footer>
+        <p>Website made by a careless 17 year old.
+        add me on snapchat: @peachyhoshi </p>
+    </footer>
+
+</body>
+
+</html>
